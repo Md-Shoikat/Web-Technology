@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <h1>MyWebsite</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+      <a href="#">Contact</a>
+    </nav>
+</header>
+
+  <main>
+    <section class="hero">
+      <h2>Learn to Code for Free</h2>
+      <p>Practice HTML, CSS, and JavaScript with easy tutorials and examples.</p>
+      <a href="#" class="btn">Start Learning</a>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>HTML</h3>
+        <p>The structure of web pages.</p>
+      </div>
+      <div class="card">
+        <h3>CSS</h3>
+        <p>Style your website beautifully.</p>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>Make your site interactive.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

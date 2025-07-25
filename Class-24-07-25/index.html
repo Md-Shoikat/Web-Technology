@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- metar kaj ki ei jinis gular mane basay giye dekhte hobe -->
+    <!-- Font ext:ttf -->
+    <!-- z-index diyye kono kicy ke overlap kore -->
+    <!-- overflo? -->
+    <!-- RELATIVE? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1
+        style="
+          background-color: rgb(129, 197, 197);
+          text-align: center;
+          width: 380;
+        "
+      >
+        Student Regestation From
+      </h1>
+      <img
+        src="aiub.png"
+        alt="aiub logo"
+        style="width: 200px; height: 200px; float: right"
+      />
+    </header>
+    <form class="Form1" action="/submit" method="post">
+      <label>Roll no :</label>
+      <input type="text" /><br /><br />
+
+      <label>Student name : </label>
+      <input type="text" placeholder="First Name" />
+      <input type="text" placeholder="Last Name" /><br /><br />
+
+      <label>E-mail :</label>
+      <input type="email" /><br /><br />
+
+      <label>Father's Name :</label>
+      <input type="text" /><br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" />
+      <br /><br />
+
+      <label>Mobile no :</label>
+      <input type="text" /><br /><br />
+
+      <label>Password :</label>
+      <input type="password" /><br /><br />
+
+      <label>Confirm Password :</label>
+      <input type="password" /><br /><br />
+
+      <label>Address :</label>
+      <textarea name="address" id="address" cols="15" rows="3"></textarea
+      ><br /><br />
+
+      <label> Gander </label><br />
+      <label> <input type="radio" name="gender" value="male" /> Male </label
+      ><br />
+
+      <label> <input type="radio" name="gender" value="female" /> Female </label
+      ><br />
+
+      <label> <input type="radio" name="gender" value="other" /> Other </label
+      ><br /><br />
+
+      <label>Hobbies :</label><br />
+      <label> <input type="checkbox" value="reading" /> Reading </label><br />
+      <label> <input type="checkbox" value="travelling" /> Travelling </label
+      ><br />
+      <label> <input type="checkbox" value="gaming" /> Gaming </label><br />
+      <label> <input type="checkbox" value="cooking" /> Cooking </label
+      ><br /><br />
+
+      <label>Country :</label>
+      <select>
+        <option>Bangladesh</option>
+        <option>India</option>
+        <option>Pakistan</option>
+        <option>Nepal</option>
+        <option>Sri Lanka</option></select
+      ><br /><br />
+
+      <div class="div1">
+        <button id="bt1" type="submit">Submit</button>
+
+        <button id="bt2" type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>

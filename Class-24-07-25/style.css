@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+}
+
+.Form1{
+    font-family: serif;
+    margin: 30px;
+
+}
+.div1{
+    text-align: center;
+}
+button{
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#bt1:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+#bt2:hover {
+    background-color: #cf6024;
+    color: white;
+}
