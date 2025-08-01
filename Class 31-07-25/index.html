@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Interaction</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Display</h1>
+
+    <button onclick="showElement('para')">Paragraph</button>
+    <button onclick="showElement('image')">Image</button>
+    <button onclick="showElement('video')">Video</button>
+    <button onclick="showElement('audio')">Audio</button>
+    <button onclick="showElement('table')">Table</button>
+    <div>
+      <div id="para" class="classc">
+        <p>This is a sample paragraph shown after clicking the button.</p>
+      </div>
+
+      <div id="image" class="classc">
+        <img height="300px" src="b4.svg" alt="Sample Image" />
+      </div>
+
+      <div id="video" class="classc">
+        <video width="320" height="240" controls>
+          <source src="sample-video.mp4" type="mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div id="audio" class="classc">
+        <audio controls>
+          <source src="sample-audio.mp3" type="mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <div id="table" class="classc">
+        <table border = "1">
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Saikat</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Shams</td>
+            <td>56</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
